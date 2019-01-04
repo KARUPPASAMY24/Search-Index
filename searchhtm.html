@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.3.1.js"  type="text/javascript"></script>
+        <link rel="stylesheet" href="C:\Users\Kumar\Desktop\searchapp\searchstyle.css">
+        <script type="text/javascript" src="C:\Users\Kumar\Desktop\searchapp\data.json"></script>
+        <script src="C:\Users\Kumar\Desktop\searchapp\searchscript.js"></script>
+    </head>
+<body> 
+    <div>      
+        <form class="hotelroomsearch">
+            <h2>Search Hotel Room</h2>
+            <input type="text" id="box" autocomplete="off" placeholder="Search.." name="search">
+            <button type="submit" id="sbutn"> Search</button>
+        </form>
+    </div>
+
+    <div class="ddfilter">
+        <select id="spincode" name="">                
+            <option value="">Pincode</option>                
+        </select>
+        <select id="stype" name="">                
+            <option value="">Type</option>                
+        </select>    
+    </div> 
+    <br>
+     
+    <div class="griddata">
+        <table id= "searchdata">
+            <thead>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Pincode</th>
+                <th>Phone</th>
+                <th>Type</th>
+                <th>Rooms</th>
+                <th>Max Price</th>
+                <th>Min Price</th>
+            </thead>
+            <tbody>                                    
+            </tbody>
+        </table>  
+    </div>
+</body>
+</html>

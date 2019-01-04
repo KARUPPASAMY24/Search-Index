@@ -1,0 +1,65 @@
+
+body
+{
+    background:white;
+}
+.hotelroomsearch
+{
+    width: 100%;   
+    text-align: center;
+    margin: auto;
+    width: 60%;    
+    padding: 10px;
+    background-color: lightblue;
+}
+.ddfilter
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;  
+    height: 10%;  
+    padding: 10px;
+    background-color: lightblue;
+}
+#box
+{
+    margin: auto;
+    width: 60%;    
+    
+    padding: 10px;
+}
+#sbutn
+{
+    margin: auto;
+    width: 15%;   
+    background-color: #2196F3;  
+    border: 1px solid black;
+    color: white; 
+    padding: 10px;   
+}
+#spincode
+{
+    margin: auto;
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+}
+#stype
+{
+    margin: auto;
+    width: 20%;
+    border: 1px solid black;
+    padding: 10px;
+}
+#griddata ,table, th,td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table,th
+{
+    background-color:rgb(201, 238, 38);
+} 
+
